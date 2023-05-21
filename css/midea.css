@@ -1,0 +1,337 @@
+ /* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+    /* header code start */
+    header{
+        padding: 0;
+    }
+    .navlog .logo{
+        width: 190px;
+    }
+    .manu ul li a{
+        margin-left: 0px;
+    }
+    .manu ul li a i{
+        margin-left: 0px;
+    }
+    /* header code end */
+    /* banner section code start */
+    .banner{
+        height: 90vh;
+    }
+    .banner-taxt{
+        margin-top: 65px;
+    }
+    .banner-taxt h1{
+        margin-bottom: 15px;
+        font-size: 26px;
+        line-height: 30px;
+    }
+    .banner-button{
+        margin-top: 25px;
+
+    }
+    .banner-button button{
+        padding: 8px 10px;
+    }
+    .banner-button button i{
+        margin-left: 10px;
+    }
+    .np-button{
+        margin-top: 120px;
+    }
+    .np-button button{
+        padding: 8px 12px;
+    }
+    /* banner section code end */
+    /* welcam section code start  */
+    .welcam {
+        padding: 0px 20px 0px;
+    }
+    .welcam-text{
+        padding: 38px 0px 1px;
+    }
+    .welcam-text h1{
+        font-size: 25px;
+    }
+    .welcam-text::before{
+        content: "";
+        width: 2px;
+        height: 40px;
+        position: absolute;
+        background-color: #000000c9;
+        top: -0.5%;
+        left: 50%;             
+        z-index: 1;
+    }
+    .wel-p{
+        margin-bottom: 45px;
+    }
+    .singl-box{
+        margin-bottom: 60px;
+    }
+    .singl-box {
+        padding: 30px 15px 20px;
+        margin-bottom: 40px;
+    }
+    .singl-box .sbox-icon{
+        position: absolute;
+        top: -7.50%;
+        left: 43%;
+    }
+    .singl-box h2{
+        margin-bottom: 30px;
+        font-size: 20px;
+    }
+    .singl-box h2::after{
+        width: 15%;
+        height: 2px;
+        left: 42%;
+    }
+    .singl-box .sbox-icon i{
+        font-size: 40px;
+    }
+    /* welcam section code end */
+    /* about section code start */
+    .about{
+        padding: 0px 20px 50px;
+       }
+    .about-text{
+        margin-top: 40px;
+        text-align: center;
+    }
+    .about-text h1{
+        margin-bottom: 15px;
+        
+    }
+    .aboutp-1{
+        
+        margin-bottom: 20px;
+    }
+    .aboutp-2{
+        
+        margin-bottom: 30px;
+    }
+    .about-btn{
+        margin-top: 30px;
+    }
+    /* about section  code end  */
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    /* header code start */
+    header{
+        padding: 15px 0 15px;
+    }
+    .manu ul li a{
+        margin-left: 0px;
+    }
+    .manu ul li a i{
+        margin-left: 0px;
+    }
+    /* header code end */
+    /* banner section code start */
+    .banner{
+        height: 90vh;
+    }
+    .banner-taxt{
+        margin-top: 90px;
+    }
+    .banner-taxt h1{
+        margin-bottom: 15px;
+        font-size: 35px;
+        line-height: 50px;
+    }
+    .banner-button{
+        margin-top: 25px;
+
+    }
+    .banner-button button{
+        padding: 8px 10px;
+    }
+    .banner-button button i{
+        margin-left: 10px;
+    }
+    .np-button{
+        margin-top: 120px;
+    }
+    /* banner section code end */
+    /* welcam section code start  */
+    .welcam {
+        padding: 20px 50px 20px;
+    }
+    .welcam-text{
+        padding: 50px 0px 15px;
+    }
+    .wel-p{
+        margin-bottom: 60px;
+    }
+    .singl-box{
+        margin-bottom: 60px;
+    }
+    .singl-box {
+        padding: 50px 48px 20px;
+        margin-bottom: 55px;
+    }
+    .singl-box .sbox-icon{
+        position: absolute;
+        top: -9.50%;
+        left: 43%;
+    }
+    .singl-box h2::after{
+        width: 15%;
+        height: 2px;
+        left: 42%;
+    }
+    /* welcam section code end */
+    /* about section code start */
+    .about{
+        padding: 0px 50px 50px;
+       }
+    .about-text{
+        margin-top: 40px;
+        text-align: center;
+    }
+    .about-text h1{
+        margin-bottom: 15px;
+        
+    }
+    .aboutp-1{
+        
+        margin-bottom: 20px;
+    }
+    .aboutp-2{
+        
+        margin-bottom: 30px;
+    }
+    .about-btn{
+        margin-top: 30px;
+    }
+    /* about section  code end  */
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    /* header code start */
+    header{
+        padding: 10px 0;
+    }
+    .manu ul li a{
+        margin-left: 0px;
+    }
+    .manu ul li a i{
+        margin-left: 0px;
+    }
+    /* header code end */
+    /* banner section code start */
+    .banner{
+        height: 90vh;
+    }
+    .banner-taxt{
+        margin-top: 90px;
+    }
+    .banner-taxt h1{
+        margin-bottom: 15px;
+        font-size: 35px;
+        line-height: 50px;
+    }
+    .banner-button{
+        margin-top: 25px;
+    }
+    .np-button{
+        margin-top: 115px;
+    }
+    /* banner section code end */
+    /* welcam section code start  */
+    .welcam-text{
+        padding: 50px 0px 15px;
+    }
+    .wel-p{
+        margin-bottom: 60px;
+    }
+    .singl-box{
+        margin-bottom: 60px;
+    }
+    /* welcam section code end */
+    /* about section  code start  */
+    .about{
+        padding: 0px 70px 50px;
+       }
+    .about-text{
+        margin-top: 40px;
+        text-align: center;
+    }
+    .about-text h1{
+        margin-bottom: 15px;
+        
+    }
+    .aboutp-1{
+        
+        margin-bottom: 20px;
+    }
+    .aboutp-2{
+        
+        margin-bottom: 30px;
+    }
+    .about-btn{
+        margin-top: 30px;
+    }
+    /* about section  code end  */
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    /* banner section code start */
+    .banner{
+        height: 90vh;
+    }
+    .banner-taxt{
+        margin-top: 90px;
+    }
+    .banner-taxt h1{
+        margin-bottom: 20px;
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .banner-button{
+        margin-top: 30px;
+    }
+    .np-button{
+        margin-top: 110px;
+    }
+    /* banner section code end */
+    /* about section  code start  */
+    .about-text{
+        padding-bottom: 100px;
+    }
+    .about-text h1{
+        margin-bottom: 15px;
+        
+    }
+    .aboutp-1{
+        
+        margin-bottom: 20px;
+    }
+    .aboutp-2{
+        
+        margin-bottom: 30px;
+    }
+    .about-btn{
+        margin-top: 30px;
+    }
+    /* about section  code end  */
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) { 
+    .banner-taxt{
+        
+    }
+    .np-button{
+       
+    }
+}
+/* Extra Extra large devices (large desktops, 1400px and up) */
+@media (min-width: 1400px) {
+
+}
